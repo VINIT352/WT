@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+    <title>Cricket Trial Regirstration</title>
+    <head>
+      <style>
+         body{
+            background-image: url('cricket-bat-ball-26560801.jpg');
+            background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+       
+         }
+      </style>
+    </head>
+<body>
+    
+ <form action="connect.php"method="POST">
+  <table>
+    <tr> </td><td><a href="info.html" target="_self"><p>how to fill this form?</p></a></td><br></tr>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text"name="Username"   required> </td>
+   </tr>
+   <tr>
+    <td> Mobile Number:</td>
+    <td><input type="text"name="Mobile_no" pattern="[0-9]{10}"required>
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td>
+        <input type="email"name="Email"required>
+     
+    </td>
+   </tr>
+   <tr>
+    <td>Age :</td>
+    <td><input type="number"name="Age"required></td>
+   </tr>
+   <tr>
+    <td> Role :</td>
+    <td>
+        <select role="opt"name="position"required >
+            <option value="batsman">Batsman</option>
+            <option value="bowler">Bowler</option>
+            <option value="allrounder">All-rounder</option>
+         </select><br><br>
+     
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit">
+    </td>
+   </tr>
+   <tr>
+   
+
+  </table>
+ </form>
+</body>
+</html>
