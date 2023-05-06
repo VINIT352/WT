@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
+<employees>
+  <employee>
+    <name>John Smith</name>
+    <title>Software Engineer</title>
+    <department>Engineering</department>
+    <salary>100000</salary>
+  </employee>
+  <employee>
+    <name>Jane Doe</name>
+    <title>Marketing Manager</title>
+    <department>Marketing</department>
+    <salary>90000</salary>
+  </employee>
+  <employee>
+    <name>Bob Johnson</name>
+    <title>HR Director</title>
+    <department>Human Resources</department>
+    <salary>110000</salary>
+  </employee>
+</employees>
