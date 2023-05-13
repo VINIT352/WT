@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Table Page</title>
+    <link rel="stylesheet" href="../static/table.css" type="text/css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+    <li><a href="/"><strong>HOME</strong></a><li>
+    </ul>
+    </nav>
+    <h1>Table of Data</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Phone Number</th>
+          <th>Category</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in data %}
+        <tr>
+          {% for value in row %}
+          <td>{{ value }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>

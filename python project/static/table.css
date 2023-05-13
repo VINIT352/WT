@@ -1,0 +1,61 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: greenyellow;
+    color: black;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  body{
+    background-image: url('cricket-bat-ball-26560801.jpg');
+    background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+button{
+    background: none;
+    
+    
+  }   nav h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav li {
+    margin-left: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  nav a:hover {
+    color: black;
+  }
+  .title {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 100px;
+  }
+  #a1,#a2{
+    color:black;
+  }
+ 
